@@ -1,0 +1,63 @@
+
+@import url('main.css');
+footer {
+    background-color: #f2f2f2;
+}
+
+#cima {
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem 8rem 2rem;
+    font-size: 20px;
+    color: #707070;
+    flex-direction: column;
+}
+
+#cima div:nth-of-type(2) span:last-of-type {
+    margin-top: 30px;
+}
+
+#baixo {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding: 1rem;
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #707070;
+    flex-direction: column;
+}
+
+#cima div {
+    display: flex;
+    flex-direction: column;
+}
+
+div span {
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.fab,
+.far {
+    margin-right: 10px;
+}
+
+/*Responsive*/
+@media (min-width: 580px){
+    #cima, #baixo{
+        flex-direction: row;
+    }
+}

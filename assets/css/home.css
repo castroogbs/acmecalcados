@@ -1,0 +1,369 @@
+@import url('main.css');
+
+.banner-home {
+	background: url("../images/banner.jpg");
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+    background-position: 100% 85%;
+}
+
+#container {
+	display: flex;
+}
+
+.banner-conteudo {
+	position: relative;
+    top: 265px;
+    margin-left: 30px;
+}
+
+.banner-conteudo span {
+	font: normal normal bold 40px/73px Montserrat;
+	font-weight: bold;
+	color: #fff;
+}
+
+.banner-conteudo p {
+	font-size: 35px;
+	font-weight: 500;
+	color: #fff;
+	font-family: Montserrat;
+}
+
+.mais-vendidos {
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	margin: 25px auto;
+}
+
+.mais-vendidos > div {
+    margin: 10px;
+}
+
+.box-img-mais-vendidos {
+	display: flex;
+    justify-content: center;
+}
+
+.box-img-mais-vendidos > div {
+    width: 100px;
+    margin: 10px;
+}
+
+.text-vendidos p {
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-family: Montserrat;
+	font-size: 45px;
+	text-align: center;
+}
+
+
+.container-img-vendidos {
+	display: flex;
+}
+
+.banner-conteudo-vendidos {
+	position: relative;
+    padding: 20px;
+    border: 1px solid var(--unnamed-color-707070);
+	background: #00000061 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+
+.banner-conteudo-vendidos span {
+	font-size: 15px;
+	font-family: Montserrat;
+	color: #fff;
+	margin: 0px;
+}
+
+#span_nome {
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+#span_preco {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.banner-conteudo-vendidos a {
+	font-size: 10px;
+	font-weight: 500;
+	color: #fff;
+	font-family: Montserrat;
+	text-decoration: none;
+	background: #1E6FD9 0% 0% no-repeat padding-box;
+	opacity: 1;
+	padding: 8px;
+	position: relative;
+	margin-top: 12px;
+	width: 60%;
+}
+
+
+
+/*depoimentos*/
+
+.container-depoimentos {
+	display: flex;
+    justify-content: center;
+}
+
+.folha-depoimento {
+	margin: 20px;
+	width: 320px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 6px 3px 6px #00000096;
+}
+
+.nome-depoimento {
+	margin:15px 0px 25px 0px;
+}
+
+.nome-depoimento span {
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-size: 25px;
+	margin: 0px;
+}
+
+.imagem-depoimento {
+	height: 150px;
+	width: 150px;
+	
+}
+
+.imagem-depoimento img{
+	height: 150px;
+	border-radius: 50%;
+}
+
+.s-depoimentos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #F2F2F2;
+	padding: 20px 0px 35px 0px;
+}
+
+.titulo-depoimentos {
+	margin: 10px auto;
+}
+
+
+
+.title-depoimentos p span {
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-size: 35px;
+}
+
+.title-depoimentos p{
+	font-family: Montserrat;
+	color: #0D65D9;
+	opacity: 1;
+}
+
+.titulo-depoimentos h2 {
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-size: 35px;
+	margin: 0px;
+}
+
+/*parceiros*/
+
+.s-parceiros {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.item-parceiros{
+	display:flex;
+	align-items: center;
+}
+
+.title-parceiros {
+	margin: auto;
+}
+
+.title-parceiros h2 {
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-size: 35px;
+	margin: 40px;
+}
+
+.container-parceiros {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}	
+
+.circulo-parceiros {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 50px;
+	border: 1px solid #707070;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.circulo-parceiros img{
+	width: 90px;
+}
+
+/*newsletter*/
+
+.newsletter {
+	display: flex;
+    flex-direction: column;
+    background: url("../images/newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+}	
+
+.newsletter section {
+	position: relative;
+	top: 50px;
+}
+
+.title-newsletter {
+	display: flex;
+    justify-content: center;
+}
+
+.form-newsletter {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:10%;
+}
+
+.title-newsletter span {
+	font: normal normal bold 45px/55px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	font-size: 27px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.form-n input {
+	height: 40px;
+	outline: 0;
+	border: none;
+	margin: 10px;
+}
+
+.form-n input[type="email"] {
+	width: 370px;
+	padding: 10px;
+	font-family: Montserrat;
+	border: 1px solid #707070;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.form-n input[type="submit"] {
+	width: 200px;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: Montserrat;
+	background: #1E6FD9;
+	border: 1px solid #707070;
+	opacity: 1;
+	font-size: 15px;
+}
+
+
+/*faq*/
+
+.faq {
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.title-faq {
+	margin: auto;
+}
+
+.title-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.faqItem {
+	width: 90%;
+	margin: auto;
+	border-bottom: solid thin #707070;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
+.span-faq {
+	color: #707070;
+}
+
+.title-faq h2 {
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #0D65D9;
+	opacity: 1;
+	font-size: 35px;
+	margin: 40px;
+}
+
+.girar {
+	transform: rotate(180deg);
+}
+
+.voltar {
+	transform: rotate(0deg);
+}
+
+/*Responsive*/
+@media (max-width: 850px) {
+    .box-img-mais-vendidos {
+        flex-direction: column;
+    }
+
+	.banner-conteudo{
+		top:0px;
+	}
+}
